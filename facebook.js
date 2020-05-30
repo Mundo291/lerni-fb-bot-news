@@ -49,7 +49,7 @@ function Facebook(accessToken, groupId)
             '\n' +
             '## thông tin\n' +
             '* Bài viết được tự động đăng lúc 12 giờ trưa hàng ngày\n' +
-            '* Đây là post tự động lấy dữ liệu từ VnExpress dành cho anh chị em lười đọc báo nhưng lại muốn hóng tin tức =)) ');
+            '* Đây là post tự động lấy dữ liệu từ VnExpress dành cho anh chị em lười đọc báo nhưng lại muốn hóng tin tức');
         formPublish.append('formatting', 'MARKDOWN');
 
         for (let i = 0; i < images.length ; i++) {
