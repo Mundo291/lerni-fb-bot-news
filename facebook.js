@@ -48,8 +48,8 @@ function Facebook(accessToken, groupId)
             `# ĐIỂM TIN ${date}\n` +
             '\n' +
             '## Modun\n' +
-            '* Bài viết được tự động đăng lúc 19h hàng ngày\n' +
-            '* Đây là post lấy dữ liệu và tóm tắt các bài của báo VnExpress');
+            '* Bài viết được tự động đăng lúc 7h và 19h hàng ngày\n' +
+            '* Đây là post tự động lấy dữ liệu và tóm tắt các bài của báo VnExpress , cập nhật thông tin liên tục , nhanh và chính xác');
         formPublish.append('formatting', 'MARKDOWN');
 
         for (let i = 0; i < images.length ; i++) {
