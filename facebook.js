@@ -45,11 +45,11 @@ function Facebook(accessToken, groupId)
         let formPublish = new FormData();
         let date = moment().format('dddd').toUpperCase() + ' NGÀY '+ moment().format('LL').toUpperCase();
         formPublish.append('message',
-            `# TIN TỨC TRONG NGÀY ${date}\n` +
+            `# ĐIỂM TIN TRONG NGÀY ${date}\n` +
             '\n' +
             '## Modun\n' +
-            '* Bài viết được tự động đăng lúc 12 giờ trưa hàng ngày\n' +
-            '* Đây là post lấy dữ liệu và tóm tắt các bài báo của VnExpress dành cho anh chị em lười đọc nhưng lại không muốn thành người tối cổ =))');
+            '* Bài viết được tự động đăng lúc 16h hàng ngày\n' +
+            '* Đây là post lấy dữ liệu và tóm tắt các bài báo của VnExpress dành cho anh chị em lười đọc báo nhưng lại muốn nắm bắt tình hình trong và ngoài nước =))');
         formPublish.append('formatting', 'MARKDOWN');
 
         for (let i = 0; i < images.length ; i++) {
