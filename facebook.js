@@ -45,7 +45,7 @@ function Facebook(accessToken, groupId)
         let formPublish = new FormData();
         let date = moment().format('dddd').toUpperCase() + ' NGÀY '+ moment().format('LL').toUpperCase();
         formPublish.append('message',
-            `# ĐIỂM TIN TRONG NGÀY ${date}\n` +
+            `# ĐIỂM TIN ${date}\n` +
             '\n' +
             '## Modun\n' +
             '* Bài viết được tự động đăng lúc 19h hàng ngày\n' +
